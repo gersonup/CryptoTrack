@@ -7,15 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		403F73D1286218C300FCDBE2 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 403F73D0286218C300FCDBE2 /* Models.swift */; };
 		407897DE286123E90000C25F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 407897DD286123E90000C25F /* AppDelegate.swift */; };
 		407897E0286123E90000C25F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 407897DF286123E90000C25F /* SceneDelegate.swift */; };
 		407897E2286123E90000C25F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 407897E1286123E90000C25F /* ViewController.swift */; };
 		407897E5286123E90000C25F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 407897E3286123E90000C25F /* Main.storyboard */; };
 		407897E7286123EA0000C25F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 407897E6286123EA0000C25F /* Assets.xcassets */; };
 		407897EA286123EA0000C25F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 407897E8286123EA0000C25F /* LaunchScreen.storyboard */; };
+		407897F2286128040000C25F /* APICaller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 407897F1286128040000C25F /* APICaller.swift */; };
+		407897F4286136330000C25F /* CryptoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 407897F3286136330000C25F /* CryptoTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		403F73D0286218C300FCDBE2 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
 		407897DA286123E90000C25F /* CryptoTrack.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CryptoTrack.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		407897DD286123E90000C25F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		407897DF286123E90000C25F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +28,8 @@
 		407897E6286123EA0000C25F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		407897E9286123EA0000C25F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		407897EB286123EA0000C25F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		407897F1286128040000C25F /* APICaller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APICaller.swift; sourceTree = "<group>"; };
+		407897F3286136330000C25F /* CryptoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +65,9 @@
 				407897DD286123E90000C25F /* AppDelegate.swift */,
 				407897DF286123E90000C25F /* SceneDelegate.swift */,
 				407897E1286123E90000C25F /* ViewController.swift */,
+				407897F3286136330000C25F /* CryptoTableViewCell.swift */,
+				407897F1286128040000C25F /* APICaller.swift */,
+				403F73D0286218C300FCDBE2 /* Models.swift */,
 				407897E3286123E90000C25F /* Main.storyboard */,
 				407897E6286123EA0000C25F /* Assets.xcassets */,
 				407897E8286123EA0000C25F /* LaunchScreen.storyboard */,
@@ -141,6 +150,9 @@
 				407897E2286123E90000C25F /* ViewController.swift in Sources */,
 				407897DE286123E90000C25F /* AppDelegate.swift in Sources */,
 				407897E0286123E90000C25F /* SceneDelegate.swift in Sources */,
+				403F73D1286218C300FCDBE2 /* Models.swift in Sources */,
+				407897F4286136330000C25F /* CryptoTableViewCell.swift in Sources */,
+				407897F2286128040000C25F /* APICaller.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
